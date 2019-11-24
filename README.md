@@ -1,9 +1,7 @@
-# javaBaseLearn
-java基础学习
+# javaBaseLearn java基础学习
 
-io
-nio
-net
-jdbc
-util
-concurrent包
+## 一、java整合maven
+用命令行创建java项目
+mvn archetype:generate -DgroupId=cn.zhaojishun -DartifactId=javaBase -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
