@@ -1,5 +1,5 @@
 ##设置排除的文件##
-.idea
+.idea/
 javaBaseLearn.iml
 javaBase/javaBase.iml
 /target/
