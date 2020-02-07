@@ -9,6 +9,6 @@ public interface Operation {
      * @Author: 
      * @Date:   
      */ 
-    int calculate(int a , int b , String operator);
+    int calculate(int a , int b);
 
 }

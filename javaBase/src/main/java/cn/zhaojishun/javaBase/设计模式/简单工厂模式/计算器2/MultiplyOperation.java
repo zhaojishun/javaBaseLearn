@@ -8,7 +8,7 @@ package cn.zhaojishun.javaBase.设计模式.简单工厂模式.计算器2;
  */
 public class MultiplyOperation implements Operation{
     @Override
-    public int calculate(int a, int b, String operator) {
+    public int calculate(int a, int b) {
         return a*b;
     }
 }

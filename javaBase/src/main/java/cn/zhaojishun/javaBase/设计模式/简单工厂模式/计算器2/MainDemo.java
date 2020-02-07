@@ -13,7 +13,7 @@ public class MainDemo {
         int b = 30;
         String operation = "+";
         Operation o = OperationFactory.createOperation(operation);
-        System.out.println(o.calculate(a, b, operation));
+        System.out.println(o.calculate(a, b));
 
     }
 
