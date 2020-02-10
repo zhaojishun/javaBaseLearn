@@ -1,4 +1,4 @@
-package cn.zhaojishun.javaBase.设计模式.简单工厂模式.计算器2;
+package cn.zhaojishun.javaBase.设计模式.工厂模式.简单工厂模式.计算器2;
 
 /**
  * @program: javaBaseLearn

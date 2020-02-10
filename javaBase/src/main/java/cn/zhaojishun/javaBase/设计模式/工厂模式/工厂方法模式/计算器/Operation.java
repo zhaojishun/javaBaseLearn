@@ -1,4 +1,4 @@
-package cn.zhaojishun.javaBase.设计模式.简单工厂模式.计算器2;
+package cn.zhaojishun.javaBase.设计模式.工厂模式.工厂方法模式.计算器;
 
 public interface Operation {
 
@@ -9,6 +9,6 @@ public interface Operation {
      * @Author: 
      * @Date:   
      */ 
-    int calculate(int a , int b);
+    int calculate(int a, int b);
 
 }
