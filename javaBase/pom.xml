@@ -11,8 +11,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>6</source>
-                    <target>6</target>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
         </plugins>
@@ -33,5 +33,11 @@
       <artifactId>fastjson</artifactId>
       <version>1.2.58</version>
     </dependency>
+      <!--cglib 学习动态代理-->
+      <dependency>
+          <groupId>cglib</groupId>
+          <artifactId>cglib</artifactId>
+          <version>2.2.2</version>
+      </dependency>
   </dependencies>
 </project>
