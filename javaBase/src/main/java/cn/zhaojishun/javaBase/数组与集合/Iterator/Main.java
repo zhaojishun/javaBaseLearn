@@ -1,4 +1,4 @@
-package cn.zhaojishun.javaBase.集合.Iterator;
+package cn.zhaojishun.javaBase.数组与集合.Iterator;
 
 import java.util.Iterator;
 import java.util.LinkedList;

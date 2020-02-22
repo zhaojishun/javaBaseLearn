@@ -22,7 +22,7 @@ import lombok.NonNull;
 @AllArgsConstructor 全参数的构造函数，会配合@NonNull
 */
 @Builder
-public class User {
+public class User{
 
     @NonNull
     private String name;
