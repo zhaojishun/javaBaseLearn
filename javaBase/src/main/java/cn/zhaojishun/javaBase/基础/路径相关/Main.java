@@ -22,5 +22,8 @@ public class Main {
         //获得包名
         System.out.println(Main.class.getPackage().getName());
 
+        //由于windows与linux 路径系统不同 ，路径斜线用
+        System.out.println(File.separator);
+
     }
 }

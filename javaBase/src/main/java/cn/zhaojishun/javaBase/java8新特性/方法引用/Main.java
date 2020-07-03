@@ -19,6 +19,7 @@ public class Main {
     public static void main(String[] args) {
 
         //是一种lambda的另一种表现形式
+
         //方法引用，若lambda体方法已经实现了，可以使用方法引用
         /*
         * 三种格式
