@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 /**
  * @program: javaBaseLearn
- * @description:
+ * @description: 有序表合并-顺序表实现
  * @author: Jishun Zhao
  * @create: 2020-07-03 20:16
  */

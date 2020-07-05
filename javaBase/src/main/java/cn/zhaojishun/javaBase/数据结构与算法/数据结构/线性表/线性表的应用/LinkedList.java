@@ -4,7 +4,7 @@ package cn.zhaojishun.javaBase.数据结构与算法.数据结构.线性表.线�
 
 /**
  * @program: javaBaseLearn
- * @description:
+ * @description: 线性表合并
  * @author: Jishun Zhao
  * @create: 2020-07-03 17:17
  */
