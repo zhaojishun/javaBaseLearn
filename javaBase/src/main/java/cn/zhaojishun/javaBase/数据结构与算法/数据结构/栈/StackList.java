@@ -1,7 +1,6 @@
 package cn.zhaojishun.javaBase.数据结构与算法.数据结构.栈;
 
 import java.util.EmptyStackException;
-import java.util.Stack;
 
 /**
  * @program: javaBaseLearn
@@ -76,7 +75,5 @@ public class StackList {
         while (!stackList.empty()){
             System.out.println(stackList.pop());
         }
-
-
     }
 }

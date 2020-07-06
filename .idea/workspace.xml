@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/ArrayList.java" line="341" />
+    <bookmark url="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/线性表/BookList.java" line="89" />
+    <bookmark url="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/线性表/LinkList.java" description="Node head;" line="30" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac744265-e2e0-4d59-a84c-e6e3f936d073" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBase/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBase/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/数据类型/包装类型.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/数据类型/基本类型.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/数据类型/字符串.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBase/src/test/java/cn/zhaojishun/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBaseLearn.iml" beforeDir="false" />
+    <list default="true" id="ac744265-e2e0-4d59-a84c-e6e3f936d073" name="Default Changelist" comment="基本类型的学习">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/StackList.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/StackList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/SysConvert.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/javaBase/target/" />
@@ -24,109 +22,178 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/javaBaseLearn$cn_zhaojishun_javaBase___in_javaBase.ic" NAME="cn.zhaojishun.javaBase.设计模式.桥接模式 in javaBase Coverage Results" MODIFIED="1581818774648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cn.zhaojishun.javaBase.设计模式.桥接模式.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="209" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="febs_base: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="801455361">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="47" />
+          <entry key="project.open.time.0" value="10" />
+          <entry key="project.open.time.1" value="12" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.29" value="3" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="4" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="1" />
-          <entry key="iml" value="2" />
-          <entry key="java" value="6" />
-          <entry key="md" value="1" />
-          <entry key="xml" value="4" />
+          <entry key="MultiplyOperation" value="1" />
+          <entry key="Operation" value="1" />
+          <entry key="class" value="2" />
+          <entry key="gitignore" value="3" />
+          <entry key="iml" value="3" />
+          <entry key="java" value="656" />
+          <entry key="json" value="2" />
+          <entry key="md" value="82" />
+          <entry key="ms" value="1" />
+          <entry key="png" value="2" />
+          <entry key="properties" value="8" />
+          <entry key="setter方式传递" value="1" />
+          <entry key="sql" value="1" />
+          <entry key="t_user" value="1" />
+          <entry key="text" value="5" />
+          <entry key="xml" value="16" />
+          <entry key="享元模式" value="1" />
+          <entry key="命令模式" value="1" />
+          <entry key="工厂方法模式" value="1" />
+          <entry key="适配器模式" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="6" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="4" />
+          <entry key="CLASS" value="2" />
+          <entry key="Database Element" value="1" />
+          <entry key="IDEA_MODULE" value="3" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="656" />
+          <entry key="JSON" value="2" />
+          <entry key="Markdown" value="66" />
+          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="Properties" value="8" />
+          <entry key="Scratch" value="1" />
+          <entry key="UML" value="4" />
+          <entry key="XML" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="29" />
-          <entry key="java" value="335" />
-          <entry key="md" value="236" />
-          <entry key="txt" value="7" />
+          <entry key="dummy" value="9" />
+          <entry key="ft" value="25" />
+          <entry key="gitignore" value="30" />
+          <entry key="java" value="27051" />
+          <entry key="json" value="7" />
+          <entry key="md" value="3499" />
+          <entry key="properties" value="28" />
+          <entry key="text" value="22" />
+          <entry key="txt" value="82" />
+          <entry key="xml" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="335" />
-          <entry key="Markdown" value="236" />
-          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="JAVA" value="27051" />
+          <entry key="JSON" value="7" />
+          <entry key="Markdown" value="2897" />
+          <entry key="PLAIN_TEXT" value="745" />
+          <entry key="Properties" value="28" />
+          <entry key="VTL" value="25" />
+          <entry key="XML" value="102" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="54">
-                <caret line="2" selection-start-line="2" selection-end-line="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/数据类型/基本类型.java">
+        <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/LinkedStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" selection-start-line="4" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/数据类型/包装类型.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/数据类型/字符串.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="250">
+              <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+              <folding>
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javaBase/.gitignore">
+        <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/队列/LinkedQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="545">
+              <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+              <folding>
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaBase/javaBase.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaBase/pom.xml">
+        <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/队列/SqQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="189">
+              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+              <folding>
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,9 +203,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>local</find>
+      <find>jdbc:</find>
+      <find>结束</find>
+      <find>5603</find>
+      <find>size</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -146,15 +225,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/App.java" />
-        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/数据类型/Demo.java" />
-        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/数据类型/基本类型/基本类型.java" />
-        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/数据类型/基本类型.java" />
-        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/数据类型/包装类型.java" />
-        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/数据类型/字符转.java" />
-        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/数据类型/字符串.java" />
-        <option value="$PROJECT_DIR$/javaBase/.gitignore" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数组与集合/Iterator/数组/Main.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/扩展/lombok/User.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数组与集合/数组/Main.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数组与集合/Collection集合/Main.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数组与集合/Collection集合/ListMain.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数组与集合/Collection集合/SetMain.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数组与集合/Collection集合/QueueMain.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/util/StringUtil.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/util/RegexUtil.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/util/TimeUtil.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/util/FileUtil.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/线程/TestMoreThread.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/枚举/Size.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/枚举/Main.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/函数式接口/consumer/Main.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/函数式接口/Supplier/Main.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/函数式接口/Predicate/Main.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/函数式接口/Function/Main.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/流式计算/User.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/流式计算/Main.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/流库/Main.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/java8新特性/optional/Main.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/java8新特性/方法引用/User.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/java8新特性/方法引用/Main.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/日期时间/Main.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/路径相关/Main.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/扩展/excel处理/Main.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/java8新特性/流库/User.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/java8新特性/流库/Main.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/扩展/excel处理/poi/Main.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/test/java/cn/zhaojishun/Demo.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/test/java/cn/zhaojishun/Cave.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/test/java/cn/zhaojishun/test/Fraction.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/test/java/cn/zhaojishun/TestFraction.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/test/java/cn/zhaojishun/Fraction.java" />
+        <option value="$PROJECT_DIR$/javaBase/pom.xml" />
+        <option value="$PROJECT_DIR$/javaBase/src/test/java/cn/zhaojishun/Test.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/算法/TwoArrayExchange.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/算法/ArrayExchange.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/常量/Const.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/线性表/LInkList.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/线性表/LinkList.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/线性表/DuLinkedList.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/线性表/BookList.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/线性表/线性表的应用/IntList.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/线性表/线性表的应用/LinkedList.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/线性表/线性表的应用/IntLinkedList.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/StackList.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/LinkedStack.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/队列/SqQueue.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/队列/LinkedQueue.java" />
       </list>
     </option>
   </component>
@@ -163,6 +284,11 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -199,17 +325,22 @@
     <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-125" />
-    <option name="y" value="160" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="1940" />
-    <option name="height" value="965" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages PackagesPane="false" ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,27 +348,150 @@
               <item name="javaBaseLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaBase" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="javaBaseLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaBaseLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaBaseLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaBaseLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaBaseLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="zhaojishun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaBaseLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="zhaojishun" type="462c0819:PsiDirectoryNode" />
+              <item name="javaBase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaBaseLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="zhaojishun" type="462c0819:PsiDirectoryNode" />
+              <item name="javaBase" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaBaseLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="zhaojishun" type="462c0819:PsiDirectoryNode" />
+              <item name="javaBase" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaBaseLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="zhaojishun" type="462c0819:PsiDirectoryNode" />
+              <item name="javaBase" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+              <item name="队列" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaBaseLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaBaseLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574599296338" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594037376539" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/javaBase/pom.xml" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/tools-ocr-1.2.2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.zhaojishun.javaBase.设计模式.迭代器模式" />
+      <recent name="cn.zhaojishun.javaBase.设计模式.访问者模式" />
+      <recent name="4" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\project\javaBaseLearn\javaBase\src\main\java\cn\zhaojishun\javaBase\线程" />
+      <recent name="F:\project\javaBaseLearn\javaBase\src\main\java\cn\zhaojishun\javaBase\设计模式\代理模式\动态代理\例子" />
+      <recent name="F:\project\javaBaseLearn\javaBase\src\main\java\cn\zhaojishun\javaBase\设计模式\适配器模式\对象适配器" />
+      <recent name="F:\project\javaBaseLearn\javaBase\src\main\java\cn\zhaojishun\javaBase\设计模式\工厂模式" />
+      <recent name="F:\project\javaBaseLearn\javaBase\src\main\java\cn\zhaojishun\javaBase\设计模式\工厂模式\抽象工厂模式\反射与抽象工厂" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.zhaojishun.javaBase.设计模式.迭代器模式" />
+      <recent name="cn.zhaojishun.javaBase.设计模式.代理模式.动态代理.cglib代理" />
+      <recent name="cn.zhaojishun.javaBase.util" />
+      <recent name="cn.zhaojishun.javaBase.设计模式.原型模式.深拷贝.clone方式" />
+      <recent name="cn.zhaojishun.javaBase.设计模式.工厂模式.工厂方法模式.计算器" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\project\javaBaseLearn\javaBase" />
+      <recent name="F:\project\javaBaseLearn\javaBase\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -251,6 +505,180 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.SqQueue">
+    <configuration name="IntLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhaojishun.javaBase.数据结构与算法.数据结构.线性表.线性表的应用.IntLinkedList" />
+      <module name="javaBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zhaojishun.javaBase.数据结构与算法.数据结构.线性表.线性表的应用.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhaojishun.javaBase.数据结构与算法.数据结构.线性表.线性表的应用.IntList" />
+      <module name="javaBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zhaojishun.javaBase.数据结构与算法.数据结构.线性表.线性表的应用.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhaojishun.javaBase.数据结构与算法.数据结构.栈.LinkedStack" />
+      <module name="javaBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zhaojishun.javaBase.数据结构与算法.数据结构.栈.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhaojishun.javaBase.java8新特性.函数式接口.Function.Main" />
+      <module name="javaBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zhaojishun.javaBase.java8新特性.函数式接口.Function.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhaojishun.javaBase.设计模式.访问者模式.例子bad.Main" />
+      <module name="javaBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zhaojishun.javaBase.设计模式.访问者模式.例子bad.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhaojishun.javaBase.设计模式.结构性模式.装饰模式.示例.Main" />
+      <module name="javaBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zhaojishun.javaBase.设计模式.结构性模式.装饰模式.示例.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhaojishun.javaBase.设计模式.结构性模式.装饰模式.示例2.Main" />
+      <module name="javaBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zhaojishun.javaBase.设计模式.结构性模式.装饰模式.示例2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhaojishun.javaBase.设计模式.结构性模式.组合模式.院系展示例子.Main" />
+      <module name="javaBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zhaojishun.javaBase.设计模式.结构性模式.组合模式.院系展示例子.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhaojishun.javaBase.设计模式.结构性模式.外观模式.例子.Main" />
+      <module name="javaBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zhaojishun.javaBase.设计模式.结构性模式.外观模式.例子.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhaojishun.javaBase.设计模式.代理模式.静态代理.例子1.Main" />
+      <module name="javaBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zhaojishun.javaBase.设计模式.代理模式.静态代理.例子1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SqQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhaojishun.javaBase.数据结构与算法.数据结构.队列.SqQueue" />
+      <module name="javaBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zhaojishun.javaBase.数据结构与算法.数据结构.队列.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhaojishun.javaBase.数据结构与算法.数据结构.栈.StackList" />
+      <module name="javaBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zhaojishun.javaBase.数据结构与算法.数据结构.栈.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.IntList" />
+      <item itemvalue="Application.IntLinkedList" />
+      <item itemvalue="Application.StackList" />
+      <item itemvalue="Application.LinkedStack" />
+      <item itemvalue="Application.SqQueue" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SqQueue" />
+        <item itemvalue="Application.LinkedStack" />
+        <item itemvalue="Application.StackList" />
+        <item itemvalue="Application.IntLinkedList" />
+        <item itemvalue="Application.IntList" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -261,7 +689,59 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574591680052</updated>
-      <workItem from="1574591682161" duration="6119000" />
+      <workItem from="1574591682161" duration="6254000" />
+      <workItem from="1578481102732" duration="1495000" />
+      <workItem from="1580095632304" duration="28679000" />
+      <workItem from="1580347530397" duration="4636000" />
+      <workItem from="1580360197657" duration="4058000" />
+      <workItem from="1580436215429" duration="10399000" />
+      <workItem from="1580780826092" duration="9334000" />
+      <workItem from="1580821917723" duration="56000" />
+      <workItem from="1580956512231" duration="2752000" />
+      <workItem from="1580975886293" duration="15196000" />
+      <workItem from="1581128118821" duration="159000" />
+      <workItem from="1581128317850" duration="36336000" />
+      <workItem from="1581510946359" duration="9905000" />
+      <workItem from="1581591866574" duration="3069000" />
+      <workItem from="1581676030252" duration="1308000" />
+      <workItem from="1581733628386" duration="6347000" />
+      <workItem from="1581837637726" duration="39167000" />
+      <workItem from="1582245928159" duration="8421000" />
+      <workItem from="1582286599471" duration="2693000" />
+      <workItem from="1582340438659" duration="8625000" />
+      <workItem from="1582366719444" duration="3264000" />
+      <workItem from="1582372491278" duration="2755000" />
+      <workItem from="1582593495108" duration="10974000" />
+      <workItem from="1583456433158" duration="818000" />
+      <workItem from="1583671400192" duration="1488000" />
+      <workItem from="1583823593739" duration="3772000" />
+      <workItem from="1583890254033" duration="1039000" />
+      <workItem from="1583901551146" duration="2908000" />
+      <workItem from="1583912571616" duration="722000" />
+      <workItem from="1583915171461" duration="246000" />
+      <workItem from="1583915777146" duration="2479000" />
+      <workItem from="1583932348356" duration="591000" />
+      <workItem from="1583937825854" duration="758000" />
+      <workItem from="1583972855987" duration="1426000" />
+      <workItem from="1583981329062" duration="1616000" />
+      <workItem from="1584022895569" duration="322000" />
+      <workItem from="1584870053145" duration="1255000" />
+      <workItem from="1585215442991" duration="7517000" />
+      <workItem from="1585550289244" duration="6882000" />
+      <workItem from="1587732331630" duration="604000" />
+      <workItem from="1587883620576" duration="71000" />
+      <workItem from="1588226967649" duration="2310000" />
+      <workItem from="1589424583596" duration="9090000" />
+      <workItem from="1589531542449" duration="18000" />
+      <workItem from="1589773072129" duration="612000" />
+      <workItem from="1589774559077" duration="1841000" />
+      <workItem from="1593335827825" duration="13743000" />
+      <workItem from="1593591706552" duration="19763000" />
+      <workItem from="1593767276791" duration="6307000" />
+      <workItem from="1593847853605" duration="5546000" />
+      <workItem from="1593866927811" duration="11533000" />
+      <workItem from="1593991829051" duration="1078000" />
+      <workItem from="1594000487250" duration="10818000" />
     </task>
     <task id="LOCAL-00001" summary="基本类型的学习">
       <created>1574597828436</created>
@@ -277,11 +757,91 @@
       <option name="project" value="LOCAL" />
       <updated>1574599190724</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="命令模式与模板方法模式">
+      <created>1582186074728</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582186074728</updated>
+    </task>
+    <task id="LOCAL-00004" summary="迭代器模式">
+      <created>1582264076249</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582264076249</updated>
+    </task>
+    <task id="LOCAL-00005" summary="lombok学习">
+      <created>1582288196766</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582288196767</updated>
+    </task>
+    <task id="LOCAL-00006" summary="集合">
+      <created>1582353160741</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582353160741</updated>
+    </task>
+    <task id="LOCAL-00007" summary="枚举类">
+      <created>1582367611760</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582367611760</updated>
+    </task>
+    <task id="LOCAL-00008" summary="流式计算">
+      <created>1582600155817</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582600155817</updated>
+    </task>
+    <task id="LOCAL-00009" summary="方法引用">
+      <created>1582620975509</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582620975509</updated>
+    </task>
+    <task id="LOCAL-00010" summary="线性数据结构学习">
+      <created>1593782029881</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593782029881</updated>
+    </task>
+    <task id="LOCAL-00011" summary="栈的顺序表示和实现">
+      <created>1593955961483</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593955961483</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AppTest_testApp - 2020.01.27 at 11h 36m 31s.xml">
+      <configuration name="AppTest.testApp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="cn_zhaojishun_javaBase_设计模式_桥接模式_in_javaBase - 2020.02.16 at 10h 06m 22s.xml">
+      <configuration name="cn.zhaojishun.javaBase.设计模式.桥接模式 in javaBase" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6119000" />
+    <option name="totallyTimeSpent" value="333055000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -292,28 +852,34 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.23994638" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.5106383" />
-      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info id="Structure" order="5" sideWeight="0.50274724" side_tool="true" weight="0.24798928" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49725273" weight="0.38806972" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3286119" />
+      <window_info anchor="bottom" id="Thumbnails" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.57932013" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.4115983" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.23796034" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.19830029" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.5509915" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.3286119" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" visible="true" weight="0.2546917" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.2546917" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Word Book" order="9" side_tool="true" weight="0.3297587" />
+      <window_info anchor="right" id="PlantUML" order="10" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3297587" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -321,121 +887,469 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23994638" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.4794326" />
-      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info id="Structure" order="5" sideWeight="0.50274724" side_tool="true" weight="0.24798928" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49725273" visible="true" weight="0.38806972" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3286119" />
+      <window_info anchor="bottom" id="Thumbnails" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.57932013" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.4115983" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.23796034" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.19830029" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.5509915" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.3286119" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.2546917" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Word Book" order="9" side_tool="true" weight="0.3297587" />
+      <window_info anchor="right" id="PlantUML" order="10" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3297587" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="基本类型的学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本类型的学习" />
+    <MESSAGE value="命令模式与模板方法模式" />
+    <MESSAGE value="迭代器模式" />
+    <MESSAGE value="lombok学习" />
+    <MESSAGE value="集合" />
+    <MESSAGE value="枚举类" />
+    <MESSAGE value="流式计算" />
+    <MESSAGE value="方法引用" />
+    <MESSAGE value="线性数据结构学习" />
+    <MESSAGE value="栈的顺序表示和实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="栈的顺序表示和实现" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/java8新特性/流库/Main.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/java8新特性/流库/Main.java</url>
+          <line>91</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/线性表/BookList.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/线性表/线性表的应用/IntList.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/StackList.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/LinkedStack.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>i1 = 4</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javaBaseLearn.iml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.10-FINAL/poi-ooxml-3.10-FINAL-sources.jar!/org/apache/poi/ss/usermodel/WorkbookFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="37" />
+        <state relative-caret-position="-144">
+          <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.10-FINAL/poi-3.10-FINAL-sources.jar!/org/apache/poi/ss/usermodel/Sheet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="2160">
+          <caret line="96" column="37" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/App.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.10-FINAL/poi-3.10-FINAL-sources.jar!/org/apache/poi/hssf/record/common/UnicodeString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="12609">
+          <caret line="520" selection-start-line="520" selection-end-line="520" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/数据类型/Demo.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="461">
+          <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/数据类型/基本类型/基本类型.java">
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/java8新特性/函数式接口/Function/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="16" column="13" lean-forward="true" selection-end-line="27" />
+        <state relative-caret-position="90">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="54">
-            <caret line="2" selection-start-line="2" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="803" column="23" selection-start-line="803" selection-start-column="15" selection-end-line="803" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12285">
+          <caret line="486" column="36" selection-start-line="486" selection-start-column="36" selection-end-line="486" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/java8新特性/流库/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/扩展/excel处理/Main.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.10-FINAL/poi-3.10-FINAL-sources.jar!/org/apache/poi/hssf/usermodel/HSSFWorkbook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="84" column="31" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.10-FINAL/poi-ooxml-3.10-FINAL-sources.jar!/org/apache/poi/xssf/usermodel/XSSFWorkbook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="80" column="25" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.10-FINAL/poi-3.10-FINAL-sources.jar!/org/apache/poi/ss/usermodel/Workbook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.10-FINAL/poi-ooxml-3.10-FINAL-sources.jar!/org/apache/poi/xssf/streaming/SXSSFWorkbook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/扩展/excel处理/poi/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/test/java/cn/zhaojishun/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/javaBase/src/test/java/cn/zhaojishun/Cave.java" />
+    <entry file="file://$PROJECT_DIR$/javaBase/src/test/java/cn/zhaojishun/test/Fraction.java" />
+    <entry file="file://$PROJECT_DIR$/javaBase/src/test/java/cn/zhaojishun/TestFraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/test/java/cn/zhaojishun/Fraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/test/java/cn/zhaojishun/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javaBase/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="1944">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/数据类型/包装类型.java">
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/java8新特性/流库/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="27">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/数据类型/字符串.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.10-FINAL/poi-3.10-FINAL-sources.jar!/org/apache/poi/ss/formula/functions/T.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="192">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/基础/数据类型/基本类型.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="5" />
+        <state relative-caret-position="217">
+          <caret line="788" column="29" selection-start-line="788" selection-start-column="29" selection-end-line="788" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaBase/javaBase.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="65" column="10" lean-forward="true" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="61" column="10" lean-forward="true" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/IndexOutOfBoundsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="55" column="11" lean-forward="true" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/ArrayIndexOutOfBoundsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1127">
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+          <folding>
+            <element signature="e#15586#15587#0" expanded="true" />
+            <element signature="e#15631#15632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="70" column="55" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="53" column="2" lean-forward="true" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/AbstractSequentialList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="68" column="61" lean-forward="true" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/算法/ArrayExchange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/常量/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="141" column="55" lean-forward="true" selection-start-line="141" selection-start-column="55" selection-end-line="141" selection-end-column="55" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javaBase/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="81">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/线性表/线性表的应用/IntList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/线性表/BookList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2241">
+          <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/线性表/DuLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1210">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/线性表/LinkList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2614">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/线性表/线性表的应用/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2349">
+          <caret line="89" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="89" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/线性表/线性表的应用/IntLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="78" column="7" lean-forward="true" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="503" column="37" selection-start-line="503" selection-start-column="26" selection-end-line="503" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/StackList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/SysConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://af4a31d8-c9eb-4203-b9f7-1ab1034af8b6/schema/febs_base/table/t_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/af4a31d8-c9eb-4203-b9f7-1ab1034af8b6/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/队列/SqQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <folding>
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/LinkedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/队列/LinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+          <folding>
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
