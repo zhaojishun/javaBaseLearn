@@ -6,13 +6,9 @@
     <bookmark url="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/线性表/LinkList.java" description="Node head;" line="30" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac744265-e2e0-4d59-a84c-e6e3f936d073" name="Default Changelist" comment="基本类型的学习">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ac744265-e2e0-4d59-a84c-e6e3f936d073" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/串/SString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/StackList.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/StackList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/SysConvert.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/javaBase/target/" />
@@ -64,7 +60,7 @@
     <session id="801455361">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="47" />
+          <entry key="project.closed" value="48" />
           <entry key="project.open.time.0" value="10" />
           <entry key="project.open.time.1" value="12" />
           <entry key="project.open.time.15" value="1" />
@@ -73,6 +69,7 @@
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="3" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.31" value="1" />
@@ -85,7 +82,7 @@
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="53" />
+          <entry key="project.opened" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -95,7 +92,7 @@
           <entry key="class" value="2" />
           <entry key="gitignore" value="3" />
           <entry key="iml" value="3" />
-          <entry key="java" value="656" />
+          <entry key="java" value="657" />
           <entry key="json" value="2" />
           <entry key="md" value="82" />
           <entry key="ms" value="1" />
@@ -118,7 +115,7 @@
           <entry key="Database Element" value="1" />
           <entry key="IDEA_MODULE" value="3" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="656" />
+          <entry key="JAVA" value="657" />
           <entry key="JSON" value="2" />
           <entry key="Markdown" value="66" />
           <entry key="PLAIN_TEXT" value="28" />
@@ -133,21 +130,21 @@
           <entry key="dummy" value="9" />
           <entry key="ft" value="25" />
           <entry key="gitignore" value="30" />
-          <entry key="java" value="27051" />
+          <entry key="java" value="27753" />
           <entry key="json" value="7" />
           <entry key="md" value="3499" />
           <entry key="properties" value="28" />
           <entry key="text" value="22" />
-          <entry key="txt" value="82" />
+          <entry key="txt" value="90" />
           <entry key="xml" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="27051" />
+          <entry key="JAVA" value="27753" />
           <entry key="JSON" value="7" />
           <entry key="Markdown" value="2897" />
-          <entry key="PLAIN_TEXT" value="745" />
+          <entry key="PLAIN_TEXT" value="753" />
           <entry key="Properties" value="28" />
           <entry key="VTL" value="25" />
           <entry key="XML" value="102" />
@@ -157,43 +154,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/LinkedStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
-              <folding>
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/队列/LinkedQueue.java">
+        <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/串/SString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-              <folding>
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#906#907#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/队列/SqQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-              <folding>
-                <element signature="e#778#779#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="56" column="19" lean-forward="true" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -225,7 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数组与集合/Iterator/数组/Main.java" />
         <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/扩展/lombok/User.java" />
         <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数组与集合/数组/Main.java" />
         <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数组与集合/Collection集合/Main.java" />
@@ -276,6 +240,7 @@
         <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/LinkedStack.java" />
         <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/队列/SqQueue.java" />
         <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/队列/LinkedQueue.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/串/SString.java" />
       </list>
     </option>
   </component>
@@ -341,6 +306,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -420,19 +387,6 @@
               <item name="javaBaseLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaBase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaojishun" type="462c0819:PsiDirectoryNode" />
-              <item name="javaBase" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
-              <item name="队列" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaBaseLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaBase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -446,8 +400,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -455,7 +407,7 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594037376539" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594119052404" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -505,22 +457,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SqQueue">
+  <component name="RunManager" selected="Application.SString">
     <configuration name="IntLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.zhaojishun.javaBase.数据结构与算法.数据结构.线性表.线性表的应用.IntLinkedList" />
-      <module name="javaBase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.zhaojishun.javaBase.数据结构与算法.数据结构.线性表.线性表的应用.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zhaojishun.javaBase.数据结构与算法.数据结构.线性表.线性表的应用.IntList" />
       <module name="javaBase" />
       <extension name="coverage">
         <pattern>
@@ -538,19 +477,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.zhaojishun.javaBase.数据结构与算法.数据结构.栈.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zhaojishun.javaBase.java8新特性.函数式接口.Function.Main" />
-      <module name="javaBase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.zhaojishun.javaBase.java8新特性.函数式接口.Function.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -636,6 +562,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhaojishun.javaBase.数据结构与算法.数据结构.串.SString" />
+      <module name="javaBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zhaojishun.javaBase.数据结构与算法.数据结构.串.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SqQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.zhaojishun.javaBase.数据结构与算法.数据结构.队列.SqQueue" />
       <module name="javaBase" />
@@ -663,19 +602,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IntList" />
       <item itemvalue="Application.IntLinkedList" />
       <item itemvalue="Application.StackList" />
       <item itemvalue="Application.LinkedStack" />
       <item itemvalue="Application.SqQueue" />
+      <item itemvalue="Application.SString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SString" />
         <item itemvalue="Application.SqQueue" />
         <item itemvalue="Application.LinkedStack" />
         <item itemvalue="Application.StackList" />
         <item itemvalue="Application.IntLinkedList" />
-        <item itemvalue="Application.IntList" />
       </list>
     </recent_temporary>
   </component>
@@ -741,7 +680,8 @@
       <workItem from="1593847853605" duration="5546000" />
       <workItem from="1593866927811" duration="11533000" />
       <workItem from="1593991829051" duration="1078000" />
-      <workItem from="1594000487250" duration="10818000" />
+      <workItem from="1594000487250" duration="11550000" />
+      <workItem from="1594116209601" duration="3445000" />
     </task>
     <task id="LOCAL-00001" summary="基本类型的学习">
       <created>1574597828436</created>
@@ -820,7 +760,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593955961483</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="队列学习">
+      <created>1594037428596</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1594037428596</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -832,7 +779,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333055000" />
+    <option name="totallyTimeSpent" value="337232000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -845,7 +792,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -853,18 +799,18 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Structure" order="5" sideWeight="0.50274724" side_tool="true" weight="0.24798928" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49725273" weight="0.38806972" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49725273" visible="true" weight="0.3941019" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3286119" />
       <window_info anchor="bottom" id="Thumbnails" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.57932013" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.4115983" />
+      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.41218132" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.23796034" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.19830029" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.31303117" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.5509915" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.41359773" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.3286119" />
@@ -927,7 +873,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="基本类型的学习" />
     <MESSAGE value="命令模式与模板方法模式" />
     <MESSAGE value="迭代器模式" />
     <MESSAGE value="lombok学习" />
@@ -937,7 +882,9 @@
     <MESSAGE value="方法引用" />
     <MESSAGE value="线性数据结构学习" />
     <MESSAGE value="栈的顺序表示和实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="栈的顺序表示和实现" />
+    <MESSAGE value="基本类型的学习" />
+    <MESSAGE value="队列学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="队列学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -980,6 +927,12 @@
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/串/SString.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -997,13 +950,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.10-FINAL/poi-ooxml-3.10-FINAL-sources.jar!/org/apache/poi/ss/usermodel/WorkbookFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.10-FINAL/poi-3.10-FINAL-sources.jar!/org/apache/poi/ss/usermodel/Sheet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2160">
@@ -1301,13 +1247,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/SysConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/SysConvert.java" />
     <entry file="das://af4a31d8-c9eb-4203-b9f7-1ab1034af8b6/schema/febs_base/table/t_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1320,36 +1260,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/队列/SqQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="1026">
           <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-          <folding>
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/LinkedStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
-          <folding>
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/队列/LinkedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-          <folding>
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="275">
+          <caret line="38" column="67" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/栈/LinkedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/串/SString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="56" column="19" lean-forward="true" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
         </state>
       </provider>
     </entry>
