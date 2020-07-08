@@ -1,5 +1,7 @@
 package cn.zhaojishun.javaBase.数据结构与算法.数据结构.串;
 
+import java.util.Arrays;
+
 /**
  * @program: javaBaseLearn
  * @description: 顺序串
@@ -50,22 +52,80 @@ public class SString {
         if(j > t.lenth) {return i - t.lenth;}
         else return -1;
     }
+    
+    /** 
+     * @Description: KPM 算法
+     * @Param:  
+     * @return:  
+     * @Author: 
+     * @Date:   
+     */ 
+    int indexKMP(SString t){
+        int i = 1;
+        int j = 1;
+
+        int[] next = SString.getKMPNext(t);
+        while (i < lenth+1 && j < t.lenth+1){
+            if (j == 0 || data[i] == t.data[j]){//j == 0 也就是j回到了0位置
+                i++;
+                j++;
+            }else {
+                j = next[j];
+            }
+        }
+        if(j > t.lenth) {return i - t.lenth;}
+        else return -1;
+    }
+    
+    /** 
+     * @Description: 求next
+     * @Param:  
+     * @return:  
+     * @Author: 
+     * @Date:   
+     */
+    public static int[] getKMPNext(SString str){
+
+        int[] next = new int[str.lenth+1];
+        int i = 1;
+        int j = 0;
+
+        while (i < str.lenth){
+            if (j == 0 || str.data[i] == str.data[j]){  //j == 0 也就是j回到了0位置
+                i++;
+                j++;
+                next[i] = j;
+            }else {
+                j = next[j];
+            }
+        }
+        return next;
+    }
+
+
+
 
     public static void main(String[] args) {
-        SString s = new SString();
-        s.add('a');
-        s.add('a');
-        s.add('a');
-        s.add('a');
-        s.add('a');
-        s.add('b');
+       SString s = new SString();
+       s.add('a');
+       s.add('b');
+       s.add('c');
+       s.add('a');
+       s.add('a');
+       s.add('b');
+       s.add('b');
+       s.add('c');
+       s.add('a');
+       s.add('b');
+       s.add('c');
+       s.add('a');
+       s.add('a');
+       s.add('b');
+       s.add('d');
+       s.add('a');
+       s.add('b');
 
-        SString t = new SString();
-        t.add('a');
-        t.add('a');
-        t.add('a');
-        t.add('b');
-        System.out.println(s.indexBF(t));
+        System.out.println(SString.getKMPNext(s));
 
     }
 }
