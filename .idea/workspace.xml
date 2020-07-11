@@ -60,7 +60,7 @@
     <session id="801455361">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="49" />
+          <entry key="project.closed" value="51" />
           <entry key="project.open.time.0" value="10" />
           <entry key="project.open.time.1" value="12" />
           <entry key="project.open.time.15" value="1" />
@@ -72,17 +72,18 @@
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="3" />
           <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="4" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.38" value="1" />
-          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.39" value="2" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="55" />
+          <entry key="project.opened" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -92,7 +93,7 @@
           <entry key="class" value="2" />
           <entry key="gitignore" value="3" />
           <entry key="iml" value="3" />
-          <entry key="java" value="660" />
+          <entry key="java" value="661" />
           <entry key="json" value="2" />
           <entry key="md" value="82" />
           <entry key="ms" value="1" />
@@ -115,7 +116,7 @@
           <entry key="Database Element" value="1" />
           <entry key="IDEA_MODULE" value="3" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="660" />
+          <entry key="JAVA" value="661" />
           <entry key="JSON" value="2" />
           <entry key="Markdown" value="66" />
           <entry key="PLAIN_TEXT" value="28" />
@@ -130,21 +131,21 @@
           <entry key="dummy" value="9" />
           <entry key="ft" value="25" />
           <entry key="gitignore" value="30" />
-          <entry key="java" value="28946" />
+          <entry key="java" value="29434" />
           <entry key="json" value="7" />
           <entry key="md" value="3499" />
           <entry key="properties" value="28" />
           <entry key="text" value="22" />
-          <entry key="txt" value="98" />
+          <entry key="txt" value="107" />
           <entry key="xml" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="28946" />
+          <entry key="JAVA" value="29434" />
           <entry key="JSON" value="7" />
           <entry key="Markdown" value="2897" />
-          <entry key="PLAIN_TEXT" value="761" />
+          <entry key="PLAIN_TEXT" value="770" />
           <entry key="Properties" value="28" />
           <entry key="VTL" value="25" />
           <entry key="XML" value="102" />
@@ -154,11 +155,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/串/SString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1366">
-              <caret line="69" column="20" lean-forward="true" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+            <state relative-caret-position="464">
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/树/BiTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1004">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -190,7 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/扩展/lombok/User.java" />
         <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数组与集合/数组/Main.java" />
         <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数组与集合/Collection集合/Main.java" />
         <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数组与集合/Collection集合/ListMain.java" />
@@ -241,6 +250,7 @@
         <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/队列/SqQueue.java" />
         <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/队列/LinkedQueue.java" />
         <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/串/SString.java" />
+        <option value="$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/树/BiTree.java" />
       </list>
     </option>
   </component>
@@ -305,6 +315,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -397,8 +409,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -407,7 +417,7 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594198532245" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594459584200" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -683,7 +693,9 @@
       <workItem from="1593991829051" duration="1078000" />
       <workItem from="1594000487250" duration="11550000" />
       <workItem from="1594116209601" duration="3526000" />
-      <workItem from="1594176045368" duration="11180000" />
+      <workItem from="1594176045368" duration="12908000" />
+      <workItem from="1594372528855" duration="1242000" />
+      <workItem from="1594435761873" duration="5497000" />
     </task>
     <task id="LOCAL-00001" summary="基本类型的学习">
       <created>1574597828436</created>
@@ -776,7 +788,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594133590626</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="KMP 算法">
+      <created>1594198875760</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1594198875760</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -788,7 +807,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="348493000" />
+    <option name="totallyTimeSpent" value="356960000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -801,6 +820,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -808,18 +828,18 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Structure" order="5" sideWeight="0.50274724" side_tool="true" weight="0.24798928" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49725273" visible="true" weight="0.3994638" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49725273" weight="0.41018766" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3286119" />
       <window_info anchor="bottom" id="Thumbnails" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.11898017" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.4115983" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.54314005" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.23796034" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.32719547" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Debug" order="10" visible="true" weight="0.3186969" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.3186969" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.3286119" />
@@ -836,6 +856,41 @@
       <window_info anchor="right" id="PlantUML" order="10" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3297587" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Structure" order="5" sideWeight="0.50274724" side_tool="true" weight="0.24798928" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49725273" visible="true" weight="0.41018766" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3286119" />
+      <window_info anchor="bottom" id="Thumbnails" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.11898017" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.54314005" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.23796034" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32719547" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.3186969" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.3286119" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.2546917" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Word Book" order="9" side_tool="true" weight="0.3297587" />
+      <window_info anchor="right" id="PlantUML" order="10" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.3297587" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -859,7 +914,8 @@
     <MESSAGE value="基本类型的学习" />
     <MESSAGE value="队列学习" />
     <MESSAGE value="串学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="串学习" />
+    <MESSAGE value="KMP 算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="KMP 算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -931,13 +987,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/java8新特性/函数式接口/Function/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/stream/Collectors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -1262,8 +1311,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/串/SString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1366">
-          <caret line="69" column="20" lean-forward="true" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+        <state relative-caret-position="464">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBase/src/main/java/cn/zhaojishun/javaBase/数据结构与算法/数据结构/树/BiTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1004">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
         </state>
       </provider>
     </entry>

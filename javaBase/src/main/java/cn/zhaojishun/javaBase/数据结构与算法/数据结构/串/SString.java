@@ -128,4 +128,5 @@ public class SString {
         System.out.println(SString.getKMPNext(s));
 
     }
+
 }
