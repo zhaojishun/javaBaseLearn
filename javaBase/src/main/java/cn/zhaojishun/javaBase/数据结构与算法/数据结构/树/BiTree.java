@@ -6,7 +6,7 @@ import java.util.*;
 
 /**
  * @program: javaBaseLearn
- * @description:
+ * @description: 二叉树的链式存储
  * @author: Jishun Zhao
  * @create: 2020-07-11 17:24
  */
