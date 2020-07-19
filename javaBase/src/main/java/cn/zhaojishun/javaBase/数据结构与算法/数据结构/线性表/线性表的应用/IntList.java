@@ -60,6 +60,32 @@ public class IntList {
         return 0;
     }
 
+    //设置监视哨的顺序查找
+    int seachElem(int e){
+        data[0] = e;
+        int i = data.length;
+        for (; data[i] != e ; i--);
+        return i;
+    }
+
+    //二分查找
+    int binSearch(int e){
+        int left = 1;       //低位
+        int rigth = data.length;//高位
+        while (left <= rigth){
+            int mid = (left + rigth) / 2;
+            if (data[mid] == e){                 //找到待查元素
+                return mid;
+            }else if (e < data[mid]){           //缩小查找区间
+                rigth = mid-1;                  //在前半区查找
+            } else {
+                left = mid+1;               //在后半区查找
+            }
+        }
+        return 0;
+    }
+
+
     //插入元素
     int listInsert(int b , int i){
         if (i<1 || i>length+1) throw new ArrayIndexOutOfBoundsException();       //判断插入位置是否合法

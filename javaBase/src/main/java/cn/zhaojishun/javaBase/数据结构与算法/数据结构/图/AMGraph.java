@@ -18,7 +18,7 @@ public class AMGraph {
 
     int[][] arcs;        //邻接矩阵
 
-    int vexmun;                             //图的当前定点数
+    int vexmun;                             //图的当前顶点数
 
     int arcnnum;                             //图的当前边数
 
@@ -27,5 +27,19 @@ public class AMGraph {
         arcs = new int[MVNum][MVNum];
         vexmun = 0;
         arcnnum = 0;
+    }
+
+    //深度优先搜索遍历  v 开始遍历的顶点
+    void DFS(int v){
+        //创建辅助数组
+        System.out.println(vexs[v]);
+        boolean[] visited = new boolean[vexmun];
+        visited[v] = true;
+        //依次检查 v 所在行的定点
+        for (int w = 0; w < vexmun; w++) {
+            if (arcs[v][w] != 0 && !visited[w]){
+                DFS(w);
+            }
+        }
     }
 }
