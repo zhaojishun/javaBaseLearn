@@ -78,19 +78,174 @@ public class Sort {
         }
     }
 
+    //冒泡排序
+    public static void bubbleSort(int[] data){
+
+        for (int i = 0; i < data.length; i++) {
+            for (int j = data.length-1 ; j > i;j--){
+                if (data[j] < data[j-1]){//发生逆序，交换位置
+                    int temp = data[j];
+                    data[j] = data[j-1];
+                    data[j-1] = temp;
+                }
+            }
+        }
+    }
+
+    //冒泡
+    static void test(int[] data){
+        boolean flag = true; //未发生交换后面几趟可以省略
+        for (int k = 0; k < data.length && flag; k++) {
+            flag = false;
+            for (int i = 0 ; i < data.length-k-1 ; i++){
+                //如果不匹配交换位置
+                if (data[i] > data[i+1]){
+                    flag = true;
+                    int temp = data[i];
+                    data[i] = data[i+1];
+                    data[i+1] = temp;
+                }
+            }
+        }
+    }
+
+    //快速排序
+    public static void QSort(int[] data,int low,int high){
+        if (low < high){
+            int pivotloc = partition(data,low,high);
+            QSort(data,low,pivotloc-1);
+            QSort(data,pivotloc+1,high);
+        }
+    }
+    private static int partition(int[] data, int low, int high) {
+        //low = 1 high = length-1
+        data[0] = data[low];
+        data[low]=Integer.MAX_VALUE;
+        while (low!=high){
+            if(data[low]==Integer.MAX_VALUE){
+                if (data[0] > data[high]){
+                    data[low]=data[high];
+                    data[high]=Integer.MAX_VALUE;
+                }else {high--;}
+            }else if (data[high]==Integer.MAX_VALUE){
+                if (data[0] < data[low]){
+                    data[high] = data[low];
+                    data[low] = Integer.MAX_VALUE;
+                }else {
+                    low++;
+                }
+            }
+        }
+        data[low] = data[0];
+        data[0]=0;
+        return low;
+    }
+
+    //快速排序2
+    public static void QSort2(int[] data , int left , int rigth){
+        if (left <= rigth){
+            int pivotloc = partition2(data,left,rigth);
+            QSort2(data,left,pivotloc-1);
+            QSort2(data,pivotloc+1,rigth);
+        }
+    }
+    private static int partition2(int[] data, int left, int rigth) {
+        int p = data[left];
+        while (left < rigth){
+            while (left < rigth && data[rigth] >= p){
+                rigth--;
+            }
+            swap(data,left,rigth);
+            while (left < rigth && data[left] <= p){
+                left++;
+            }
+            swap(data,left,rigth);
+        }
+        return left;
+    }
+    public static void QSort2(int[] data){
+        QSort2(data,0,data.length-1);
+    }
+
+    //快速排序3
+    public static void QSort3(int[] data , int left , int rigth){
+        if (left <= rigth){
+            int pivotloc = partition3(data,left,rigth);
+            QSort3(data,left,pivotloc-1);
+            QSort3(data,pivotloc+1,rigth);
+        }
+    }
+    private static int partition3(int[] data, int left, int rigth) {
+        int p = rigth;
+        while (left <= rigth){
+            while (data[left] < data[p] && left!=rigth){
+                left++;
+            }
+            while (data[rigth] > data[p] && left != rigth){
+                rigth--;
+            }
+            if (left == rigth){
+                swap(data,left,p);
+                return left;
+            }else {
+                swap(data,left,rigth);
+            }
+        }
+        return left;
+    }
+    public static void QSort3(int[] data){
+        QSort3(data,0,data.length-1);
+    }
+
+
+    //简单选择排序
+    public static void selectSort(int[] data){
+        for (int i = 0; i <= data.length - 1; i++) {
+            int min = i;    //记录最小元素下标
+            //查找最小元素
+            for (int k = i ; k <= data.length-1 ;k++){
+                if (data[min] > data[k]){
+                    min = k;
+                }
+            }
+            //如果当前元素已经是最小的那就不替换
+            if (min!=i){
+                swap(data,i,min);//替换
+            }
+        }
+    }
+
+
 
     public static void main(String[] args) {
-        int[] data = {1,5,10,16,7,32,83,23,54,29,96};
+        //int[] data = {1,5,10,16,7,32,83,23,54,29,96};
 
 //        insertSort(data);
-        shellSort(data);
+        //shellSort(data);
         //System.out.println(Arrays.toString(data));
 
-        int[] data1 = {81,94,11,96,12,35,17,95,28,58,41,75,15};
-        int[] dlta = {5,3,1};
-        shellSort(data1,dlta);
+        //int[] data1 = {Integer.MAX_VALUE,94,11,96,12,35,17,95,28,58,41,75,15};
+        //int[] data1 = {0,49,38,65,97,76,13,27,49};
+        //int[] dlta = {5,3,1};
+        //shellSort(data1,dlta);
+
+        //bubbleSort(data1);
+        //test(data1);
+        //QSort(data1,1,data1.length-1);
+        //QSort2(data1);
+        //System.out.println(Arrays.toString(data1));
+        int[] data1 = {21,25,49,25,16,8};
+        //QSort3(data1);
+        selectSort(data1);
         System.out.println(Arrays.toString(data1));
 
+    }
+
+    //data元素中的 a , b 位置元素值互换
+    public static void swap(int[] data , int a , int b){
+        int temp = data[a];
+        data[a] = data[b];
+        data[b] = temp;
     }
 
 }
