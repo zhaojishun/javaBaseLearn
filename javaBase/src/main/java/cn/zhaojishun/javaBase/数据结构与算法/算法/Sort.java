@@ -215,6 +215,38 @@ public class Sort {
         }
     }
 
+    //堆的筛选
+    public static void heapAdjust(int[] data , int s , int m){
+        //System.out.println(s);
+        int rc = data[s];
+        for (int j = s * 2; j <= m ; j =j * 2){
+            if (j < m && data[j] > data[j+1]){//右孩子小
+                j++;
+            }
+            if (rc <= data[j])break;
+            data[s] = data[j];
+            s = j;
+        }
+        data[s] = rc;
+    }
+
+    //创建小根堆
+    public static void createHeap(int[] data){
+        for (int i = (data.length-1)/2 ; i >= 1;i--){
+            heapAdjust(data , i , data.length-1);
+        }
+    }
+
+    //排序
+    public static void heapSort(int[] data){
+        //初始化
+        createHeap(data);
+        for (int i = data.length-1 ; i > 1;i--){
+            System.out.println(data[1]);
+            swap(data , 1 , i);
+            heapAdjust(data , 1 ,i-1);
+        }
+    }
 
 
     public static void main(String[] args) {
@@ -236,8 +268,14 @@ public class Sort {
         //System.out.println(Arrays.toString(data1));
         int[] data1 = {21,25,49,25,16,8};
         //QSort3(data1);
-        selectSort(data1);
-        System.out.println(Arrays.toString(data1));
+        //heapSort(data1);
+
+        //小根堆
+        //int[] heap = {0 , 97 , 38 , 27 , 49 , 76 , 65 , 49};
+        int[] heap = {0 , 49 , 38 , 65 , 97 , 76 , 13 , 27 , 49};
+        //heapAdjust(heap , 1 , heap.length-1);
+        heapSort(heap);
+        //System.out.println(Arrays.toString(heap));
 
     }
 
